@@ -23,4 +23,5 @@ app.get('/', function(req, res) {
 
 app.listen(port, function() {
     console.log(`Rabotayu on ${port}`)
+    console.log(port)
 })
